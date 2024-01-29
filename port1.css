@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#8d7ea5;
+       
+}
+
+header {
+    background-color: #0e0819;
+    color: white;
+    text-align: center;
+    height:400px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header a{
+    font-weight: bold;
+}
+header a:hover{
+   border: 2px solid rgb(239, 234, 232);
+   background-color: #b89de7;
+   color:#010003;
+   font-weight: bolder;
+}
+
+header p {
+    font-size:20px;
+
+}
+
+section {
+    margin: 20px;
+    background-color:#8d7ea5;
+    border-radius: 8px;
+   
+}
+section h2, h3{
+    color:#0c0813;
+    margin-top:20px;
+    margin-left:20px;
+    border: 2px solid rgb(111, 97, 97);
+    padding:5px;
+    border-radius:7px;
+    background-color: #e5d7eb;   
+}
+#about p, #skills p
+{
+    margin-left:20px;
+    padding-bottom:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+     display: inline-block; 
+    margin-right: 20px;
+    margin-left:50px;
+    margin-bottom:20px; 
+    background-color: #eee;
+    padding:5px 10px;
+    border-radius: 5px;
+    
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.project h3{
+    margin-left:10px;
+}
+.project p{
+    margin-left:8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left:8px;
+}
+#maindegree
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+#degree_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+#degree_div img{
+    border-radius:5px;
+}
+#contact p{
+    margin-left:20px;
+   padding-bottom:5px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: #433758;
+    color: white;
+    text-align: center;
+    padding: 15px; 
+    
+}
