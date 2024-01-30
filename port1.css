@@ -125,20 +125,41 @@ section h2
     border-radius: 7px;
     padding: 5px;
 }
+
  #maindegree
 {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
 #degree_div{
-    display: flex;
+    
+     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 5px;
+     align-items: center;
+     flex-direction: column; 
+}
+#degree_div p
+{
+    
+    font-weight: bold;
+    color: #f8e8f8;
+    background-color: #433758;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 6px;
 }
 #degree_div img{
     border-radius:5px;
+    border: 3px solid rgb(58, 15, 50);
+    box-shadow: 3px 3px 8px 2px rgb(58, 15, 50);
+}
+span
+{
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    
 }
 footer{
     background-color: #433758;
